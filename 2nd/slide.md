@@ -118,9 +118,6 @@ print "finish loop!\n";
 
 # 綺麗なコードとインデント
 
-- では、なぜインデントをするのでしょうか
-- これは、先程のブロックと関連しています
-
 
 ```perl
 for my $i (1..10){
@@ -136,6 +133,28 @@ print "finish loop!\n";
 ```
 
 - さらに中にif文をいれると、「あれ...どこからどこまでがif文の範囲...?」みたいになってしまいます
+
+# 綺麗なコードとインデント
+
+
+```perl
+for my $i (1..10){
+if ($i % 2 == 0){
+if ($i == 2){
+print "this is even and i = 2!!\n";
+}else{
+print "this is even\n";
+}
+}else{
+print "numbers is $i\n";
+print "hello\n";
+}
+}
+
+print "finish loop!\n";
+```
+
+- if文の中にif文をいれるともはやなんだかわかりません... 😇 
 
 # インデントをしよう
 
