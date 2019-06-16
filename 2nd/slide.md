@@ -371,7 +371,8 @@ $number = $number + 1;
 ---
 ## 対応付
 
-
+![](fig/if.svg)
+![](fig/if_else.svg)
 
 ---
 
